@@ -1,0 +1,22 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "Building an Optimizely app.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertchanny/Optimizely.git"
+  },
+  "keywords": [
+    "Optimizely"
+  ],
+  "author": "Robert Chan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertchanny/Optimizely/issues"
+  },
+  "homepage": "https://github.com/robertchanny/Optimizely#readme"
+}
