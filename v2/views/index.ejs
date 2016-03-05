@@ -1,6 +1,6 @@
 <% experimentList.forEach(function(e){ %>
 	<h1 class="title"><%= e.title %></h1>
-	<span class="date"><%= e.date.dateToString() %></span>
+	<span class="date"><%= e.date.toDateString() %></span>
 	<a href="experiments/<%= e._id %>">More Information</a>
 <% }); %>
 

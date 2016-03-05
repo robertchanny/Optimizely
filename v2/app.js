@@ -27,7 +27,7 @@ app.get('/experiments', function(req,res){
 		if(err){
 			res.redirect('/experiments');
 		} else {
-			res.render('index',{experimentList:holder});
+			res.render('index', {experimentList:holder});
 		}
 	});
 });
